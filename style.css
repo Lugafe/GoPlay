@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .conteiner {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+  }
+  
+  .col-2 img {
+    max-width: 100%;
+    padding: 50px 0px;
+    padding-left: 200px;
+  }
+  
+  .col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #35846f;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background 0.5s;
+  }
+  
+  .btn:hover {
+    background: #364b44;
+  }
+  
+  .header {
+    background: #00c59a;
+  }
+  
+  .header .row {
+    margin-top: 70px;
+  }
+  
+  .categories {
+    margin: 70px 0px;
+  
+  }
+  
+  .col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+  }
+  
+  .col-3 img {
+    width: 100%;
+  }
+  
+  .col-4 img {
+    width: 100%;
+  
+  }
+  
+  .title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+  }
+  
+  .title::after {
+    content: '';
+    background: #0b666a;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  h4 {
+    color: #555;
+    font-weight: normal;
+  
+  }
+  
+  .col-4 p {
+    font-size: 14px;
+  }
+  
+  .rating .fa {
+    color: #ff523b;
+  }
+  
+  .col-4:hover {
+    transform: translateY(-5px);
+  }
+  
+  .destaque {
+    margin-top: 80px;
+    padding: 30px 0px;
+  }
+  
+  .destaque small {
+    font-weight: 700;
+  }
+  
+  .col-4 p {
+    color: black;
+  }
+  
+  h2 {
+    margin-left: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  /* ---------- login ------------------*/
+  .login {
+    padding: 50px 0;
+    background: #00c59a;
+  }
+  
+  .form-conteiner {
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px;
+    overflow: hidden;
+  }
+  
+  .form-conteiner span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+  }
+  
+  .form-btn {
+    display: inline-block;
+  }
+  
+  .form-conteiner form {
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+  
+  }
+  
+  form input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form .btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  form .btn:focus {
+    outline: none;
+  }
+  
+  #loginForm {
+    left: -300px;
+  }
+  
+  #regForm {
+    left: 0;
+  }
+  
+  form a {
+    font-size: 12px;
+  }
+  
+  #indicator {
+    width: 100px;
+    border: none;
+    background: #364b44;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+  }
+  
+  /* ---------- fim login ------------------*/
+  
+  /* ----------- Inicio cabeçalho ---------- */
+  body {
+    margin: 0;
+  }
+  
+  header {
+    position: relative;
+    padding: 0 20px;
+    background-color: #00C59A;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }
+  
+  a:hover {
+    color: #364B44;
+  }
+  
+  .navbar {
+    padding-top: 25px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  /* botao */
+  .action_bnt button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-size: 13px;
+  }
+  
+  .action_bnt button:hover {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #364B44;
+  }
+  
+  /* pesquisa */
+  .action_bnt input {
+    width: 0;
+    color: white;
+    padding: 0.3rem 0.1rem;
+    border: none;
+    background: none;
+    outline: none;
+    border-radius: 0.1cm;
+    transition: 0.4s;
+  }
+  
+  .pesquisa::placeholder {
+    color: white;
+  }
+  
+  .action_bnt:hover>.pesquisa {
+    width: 120px;
+  }
+  
+  .menu-icon {
+    margin-left: 5px;
+    display: none;
+  }
+  
+  /* ----------- Fim cabeçalho ---------- */
+  
+  /* ----------- Inicio do footer ---------- */
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #00C59A;
+  }
+  
+  .sociais {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sociais a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40%;
+  }
+  
+  .sociais a i {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .sociais a:hover {
+    background-color: #364B44;
+    transition: 0.4;
+  }
+  
+  .footernav ul li a:hover {
+    color: #364B44;
+    padding-left: 1px;
+  }
+  
+  .footernav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footernav ul li a {
+    color: white;
+    margin: 35px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .footerCopy {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .footerCopy p {
+    color: white;
+  }
+  
+  /* ----------- Fim do footer ---------- */
+  
+  /*--------- Responsividade ---------*/
+  
+  @media(max-width: 700px) {
+    .footerContainer {
+      width: 100%;
+    }
+  
+    .footernav ul {
+      flex-direction: column;
+    }
+  
+    .footernav ul li {
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+    }
+  }
+  
+  @media only screen and (max-width:800px) {
+    nav ul {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background: #0b666a;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .col-2 img {
+      display: none;
+    }
+  
+    .header {
+      background: #00c59a;
+    }
+  }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For-You</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/260689e897.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="conteiner">
+      <div class="navbar">
+        <div class="logo"><a href="#"></a> <img width="75px" src="/imgs//GoPlay.png" alt=""> </div>
+        <nav>
+          <ul id="menu">          
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Grupos</a></li>
+            <li><a href="login.html">Perfil</a></li>
+            <li><a href="#">Agenda</a></li>
+            <li>
+              <div class="action_bnt">
+                <input type="text" class="pesquisa" placeholder="Perquisar">
+                <button type="submit"><i class="fas fa-search"></i></button>
+              </div>
+            </li>          
+          </ul>
+        </nav>
+        <img src="/imgs/menu.png" alt="" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">          
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>Agende já seu horario no complexo esportivo</h1>
+          <p>A quadra só pra você quando quiser!</p>
+          <a href="" class="btn">Crie agora &#8594;</a>
+        </div>
+
+        <div class="col-2">
+          <img src="/imgs//i1.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="destaque">
+    <div class="small-conteiner">
+      <h2 class="title">Monte seu grupo!</h2>
+      <div class="row">
+        <div class="col-2">
+          <img src="imgs/i2.jpeg" alt="" class="i2">
+        </div>
+        <div class="col-2">
+          <h2>Crie seu grupo e marque para jogar seu esporte favorito a qualquer hora!</h2>
+
+        </div>
+        <a href="" class="btn">Criar agora &#8594;</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    var menu = document.getElementById("menu");
+  
+    menu.style.maxHeight = "0px";
+  
+    function menutoggle() {
+      if (menu.style.maxHeight == "0px") {
+        menu.style.maxHeight = "200px";
+      }
+      else{
+        menu.style.maxHeight = "0px"
+      }
+    }
+  </script>
+</body>
+<footer>
+    <div class="footerContainer">
+        <div class="sociais">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="footernav">
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href=""> Grupos</a></li>
+                <li><a href="login.html"> Perfil</a></li>
+                <li><a href=""> Agenda</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerCopy">
+        <p> Copyright  &copy;   2023 </p>
+
+    </div>
+</footer>
+
+</html>
+
